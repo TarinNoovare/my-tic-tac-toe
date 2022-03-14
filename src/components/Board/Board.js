@@ -73,15 +73,16 @@ function Board() {
 
   if (checkStateWinning(currentBoardState)) {
     gameResultDisplay.push(
-      <div>Winner: {checkStateWinning(currentBoardState)}</div>
+      <div className="board-winner-display">
+        <h2>Winner: {checkStateWinning(currentBoardState)}</h2>
+      </div>
     );
   }
 
   return (
     <div>
-      <div>{gameSignList[currentPlayer % 2]}</div>
-      {gameResultDisplay}
       <div className="board-grids">{ticTacToeComponents}</div>
+      {gameResultDisplay}
       <button onClick={clearBoardHandler}>Clear Board</button>
     </div>
   );

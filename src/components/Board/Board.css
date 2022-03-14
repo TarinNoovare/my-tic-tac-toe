@@ -4,3 +4,7 @@
     gap: 10px;
     background-color: black;
 }
+
+.board-winner-display {
+    flex-shrink: 1;
+}
