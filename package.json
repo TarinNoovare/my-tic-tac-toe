@@ -1,7 +1,7 @@
 {
     "name": "tic-tac-toe",
     "version": "0.1.0",
-    "homepage": "https://github.com/TarinNoovare/my-tic-tac-toe",
+    "homepage": "https://TarinNoovare.github.io/my-tic-tac-toe",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.2",

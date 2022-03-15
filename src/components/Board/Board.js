@@ -21,8 +21,6 @@ function Board() {
   });
   const [currentPlayer, setCurrentPlayer] = useState(0);
 
-  const [winner, setWinner] = useState("");
-
   const onBoardClickHandler = (numberOfBoard, stateOfBoard) => {
     const boardPosition = numberOfBoard;
 
