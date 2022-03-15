@@ -1,11 +1,11 @@
 .board__inside-box {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 .disable-select {
