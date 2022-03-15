@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TarinNoovare/my-tic-tac-toe/static/css/main.41498deb.css",
+    "main.js": "/TarinNoovare/my-tic-tac-toe/static/js/main.3cf76b44.js",
+    "static/js/787.393238a3.chunk.js": "/TarinNoovare/my-tic-tac-toe/static/js/787.393238a3.chunk.js",
+    "index.html": "/TarinNoovare/my-tic-tac-toe/index.html",
+    "main.41498deb.css.map": "/TarinNoovare/my-tic-tac-toe/static/css/main.41498deb.css.map",
+    "main.3cf76b44.js.map": "/TarinNoovare/my-tic-tac-toe/static/js/main.3cf76b44.js.map",
+    "787.393238a3.chunk.js.map": "/TarinNoovare/my-tic-tac-toe/static/js/787.393238a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41498deb.css",
+    "static/js/main.3cf76b44.js"
+  ]
+}
