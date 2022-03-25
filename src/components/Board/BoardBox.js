@@ -5,11 +5,14 @@ function BoardBox(props) {
   const boardPosition = props.boardPosititon;
 
   const boardBoxClickHandler = () => {
-      props.boardReceiveNumber(boardPosition, boardState);
+    props.boardReceiveNumber(boardPosition, boardState);
   };
 
   return (
-    <div className="board__inside-box disable-select" onClick={boardBoxClickHandler}>
+    <div
+      className="board__inside-box disable-select"
+      onClick={boardBoxClickHandler}
+    >
       {boardState}
     </div>
   );

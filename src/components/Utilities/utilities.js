@@ -46,4 +46,4 @@ function checkStateWinning(gameState) {
 
 }
 
-export default checkStateWinning;
+export  {checkStateWinning};

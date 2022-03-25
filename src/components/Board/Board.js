@@ -1,7 +1,7 @@
 import "./Board.css";
 import BoardBox from "./BoardBox";
 import { useState } from "react";
-import checkStateWinning from "../Utilities/utilities";
+import {checkStateWinning} from "../Utilities/utilities";
 
 function Board() {
   const positionBoardList = [0, 1, 2, 3, 4, 5, 6, 7, 8];
