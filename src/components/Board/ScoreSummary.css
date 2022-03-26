@@ -1,0 +1,17 @@
+.score-summary {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.score-summary__score-board {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score-summary__score {
+    font-weight: 700;
+}

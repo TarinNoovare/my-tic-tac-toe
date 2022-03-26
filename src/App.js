@@ -1,7 +1,16 @@
 import "./App.css";
 import Board from "./components/Board/Board";
+import ScoreSummary from "./components/Board/ScoreSummary";
+import { useState } from "react";
 
 function App() {
+  const [scoreX, setScoreX] = useState(0);
+  const [scoreO, setScoreO] = useState(0);
+
+  // const onWinningHandle = (winner) => {
+  //   console.log(winner);
+  // };
+
   return (
     <div className="App">
       <div className="main-title">
@@ -9,8 +18,9 @@ function App() {
       </div>
       <div className="game-board">
         <Board />
+        {/* <Board winnerHandle={onWinningHandle} /> */}
       </div>
-      <div className="score-summary">Score Summary</div>
+      <ScoreSummary />
     </div>
   );
 }

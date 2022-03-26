@@ -2,6 +2,7 @@ function checkStateWinning(gameState) {
   const xMarker = [];
   const oMarker = [];
 
+  // TODO: Edit function to handle draw situation
   const strikes = [
     [0, 1, 2],
     [3, 4, 5],
